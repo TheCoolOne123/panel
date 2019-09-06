@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "36fe7d95a4e28ceee9aeb6e63e2187a0",
@@ -1099,12 +1099,12 @@
             "version": "2.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ivanakimov/hashids.php.git",
+                "url": "https://github.com/vinkla/hashids.git",
                 "reference": "7a945a5192d4a5c8888364970feece9bc26179df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ivanakimov/hashids.php/zipball/7a945a5192d4a5c8888364970feece9bc26179df",
+                "url": "https://api.github.com/repos/vinkla/hashids/zipball/7a945a5192d4a5c8888364970feece9bc26179df",
                 "reference": "7a945a5192d4a5c8888364970feece9bc26179df",
                 "shasum": ""
             },
@@ -1162,24 +1162,20 @@
         },
         {
             "name": "igaster/laravel-theme",
-            "version": "v2.0.8",
+            "version": "v2.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igaster/laravel-theme.git",
-                "reference": "697548f755d81175bef8c0f37c1f189a62e205bd"
+                "reference": "f089afb4e8d3af393d289f2bf928c4db2c1f3444"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/igaster/laravel-theme/zipball/697548f755d81175bef8c0f37c1f189a62e205bd",
-                "reference": "697548f755d81175bef8c0f37c1f189a62e205bd",
+                "url": "https://api.github.com/repos/igaster/laravel-theme/zipball/f089afb4e8d3af393d289f2bf928c4db2c1f3444",
+                "reference": "f089afb4e8d3af393d289f2bf928c4db2c1f3444",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.4.*|5.5.*|5.6.*"
-            },
-            "require-dev": {
-                "orchestra/testbench": "~3.4",
-                "phpunit/phpunit": "^6.0"
+                "illuminate/contracts": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0"
             },
             "suggest": {
                 "orchestra/asset": "Use '@css' and '@js' in Blade files"
@@ -1216,12 +1212,12 @@
             "keywords": [
                 "assets",
                 "blade",
-                "laravel-5",
+                "laravel",
                 "package",
                 "themes",
                 "views"
             ],
-            "time": "2018-05-24T08:05:30+00:00"
+            "time": "2019-09-05T07:06:44+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -2207,8 +2203,8 @@
             "authors": [
                 {
                     "name": "Antonio Carlos Ribeiro",
-                    "email": "acr@antoniocarlosribeiro.com",
-                    "role": "Creator & Designer"
+                    "role": "Creator & Designer",
+                    "email": "acr@antoniocarlosribeiro.com"
                 }
             ],
             "description": "A One Time Password Authentication package, compatible with Google Authenticator.",
@@ -2774,9 +2770,9 @@
             "authors": [
                 {
                     "name": "Jarek Tkaczyk",
+                    "role": "Developer",
                     "email": "jarek@softonsofa.com",
-                    "homepage": "https://softonsofa.com/",
-                    "role": "Developer"
+                    "homepage": "https://softonsofa.com/"
                 }
             ],
             "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
@@ -2826,9 +2822,9 @@
             "authors": [
                 {
                     "name": "Jarek Tkaczyk",
+                    "role": "Developer",
                     "email": "jarek@softonsofa.com",
-                    "homepage": "https://softonsofa.com/",
-                    "role": "Developer"
+                    "homepage": "https://softonsofa.com/"
                 }
             ],
             "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
@@ -2876,9 +2872,9 @@
             "authors": [
                 {
                     "name": "Jarek Tkaczyk",
+                    "role": "Developer",
                     "email": "jarek@softonsofa.com",
-                    "homepage": "http://softonsofa.com/",
-                    "role": "Developer"
+                    "homepage": "http://softonsofa.com/"
                 }
             ],
             "description": "Laravel Eloquent hooks system.",
@@ -2923,9 +2919,9 @@
             "authors": [
                 {
                     "name": "Freek Van der Herten",
+                    "role": "Developer",
                     "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
+                    "homepage": "https://spatie.be"
                 }
             ],
             "description": "A developer friendly wrapper around Fractal",
@@ -4078,8 +4074,8 @@
             "authors": [
                 {
                     "name": "Tijs Verkoyen",
-                    "email": "css_to_inline_styles@verkoyen.eu",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "css_to_inline_styles@verkoyen.eu"
                 }
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
@@ -4236,6 +4232,7 @@
                 "models",
                 "znck"
             ],
+            "abandoned": "staudenmeir/belongs-to-through",
             "time": "2017-07-23T13:11:16+00:00"
         }
     ],
@@ -4731,8 +4728,8 @@
             "authors": [
                 {
                     "name": "Filipe Dobreira",
-                    "homepage": "https://github.com/filp",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "homepage": "https://github.com/filp"
                 }
             ],
             "description": "php error handling for cool kids",
@@ -5269,18 +5266,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -5427,9 +5424,9 @@
             "authors": [
                 {
                     "name": "Markus Malkusch",
+                    "role": "Developer",
                     "email": "markus@malkusch.de",
-                    "homepage": "http://markus.malkusch.de",
-                    "role": "Developer"
+                    "homepage": "http://markus.malkusch.de"
                 }
             ],
             "description": "PHP-Mock can mock built-in PHP functions (e.g. time()). PHP-Mock relies on PHP's namespace fallback policy. No further extension is needed.",
@@ -5480,9 +5477,9 @@
             "authors": [
                 {
                     "name": "Markus Malkusch",
+                    "role": "Developer",
                     "email": "markus@malkusch.de",
-                    "homepage": "http://markus.malkusch.de",
-                    "role": "Developer"
+                    "homepage": "http://markus.malkusch.de"
                 }
             ],
             "description": "Integration package for PHP-Mock",
@@ -5533,9 +5530,9 @@
             "authors": [
                 {
                     "name": "Markus Malkusch",
+                    "role": "Developer",
                     "email": "markus@malkusch.de",
-                    "homepage": "http://markus.malkusch.de",
-                    "role": "Developer"
+                    "homepage": "http://markus.malkusch.de"
                 }
             ],
             "description": "Mock built-in PHP functions (e.g. time()) with PHPUnit. This package relies on PHP's namespace fallback policy. No further extension is needed.",
@@ -7023,8 +7020,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
