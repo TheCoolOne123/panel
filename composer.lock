@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "36fe7d95a4e28ceee9aeb6e63e2187a0",
@@ -1099,12 +1099,12 @@
             "version": "2.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ivanakimov/hashids.php.git",
+                "url": "https://github.com/vinkla/hashids.git",
                 "reference": "7a945a5192d4a5c8888364970feece9bc26179df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ivanakimov/hashids.php/zipball/7a945a5192d4a5c8888364970feece9bc26179df",
+                "url": "https://api.github.com/repos/vinkla/hashids/zipball/7a945a5192d4a5c8888364970feece9bc26179df",
                 "reference": "7a945a5192d4a5c8888364970feece9bc26179df",
                 "shasum": ""
             },
@@ -1162,24 +1162,20 @@
         },
         {
             "name": "igaster/laravel-theme",
-            "version": "v2.0.8",
+            "version": "v2.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igaster/laravel-theme.git",
-                "reference": "697548f755d81175bef8c0f37c1f189a62e205bd"
+                "reference": "0be810b650e8b136874022abb8a54fee4fc94280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/igaster/laravel-theme/zipball/697548f755d81175bef8c0f37c1f189a62e205bd",
-                "reference": "697548f755d81175bef8c0f37c1f189a62e205bd",
+                "url": "https://api.github.com/repos/igaster/laravel-theme/zipball/0be810b650e8b136874022abb8a54fee4fc94280",
+                "reference": "0be810b650e8b136874022abb8a54fee4fc94280",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.4.*|5.5.*|5.6.*"
-            },
-            "require-dev": {
-                "orchestra/testbench": "~3.4",
-                "phpunit/phpunit": "^6.0"
+                "illuminate/contracts": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0"
             },
             "suggest": {
                 "orchestra/asset": "Use '@css' and '@js' in Blade files"
@@ -1216,12 +1212,12 @@
             "keywords": [
                 "assets",
                 "blade",
-                "laravel-5",
+                "laravel",
                 "package",
                 "themes",
                 "views"
             ],
-            "time": "2018-05-24T08:05:30+00:00"
+            "time": "2019-10-11T18:14:33+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -4236,6 +4232,7 @@
                 "models",
                 "znck"
             ],
+            "abandoned": "staudenmeir/belongs-to-through",
             "time": "2017-07-23T13:11:16+00:00"
         }
     ],
