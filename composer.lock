@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "36fe7d95a4e28ceee9aeb6e63e2187a0",
@@ -815,16 +815,16 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.7.1",
+            "version": "1.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1"
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
-                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
                 "shasum": ""
             },
             "require": {
@@ -857,7 +857,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2018-03-08T01:11:30+00:00"
+            "time": "2019-12-30T22:54:17+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1099,12 +1099,12 @@
             "version": "2.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ivanakimov/hashids.php.git",
+                "url": "https://github.com/vinkla/hashids.git",
                 "reference": "7a945a5192d4a5c8888364970feece9bc26179df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ivanakimov/hashids.php/zipball/7a945a5192d4a5c8888364970feece9bc26179df",
+                "url": "https://api.github.com/repos/vinkla/hashids/zipball/7a945a5192d4a5c8888364970feece9bc26179df",
                 "reference": "7a945a5192d4a5c8888364970feece9bc26179df",
                 "shasum": ""
             },
@@ -4236,6 +4236,7 @@
                 "models",
                 "znck"
             ],
+            "abandoned": "staudenmeir/belongs-to-through",
             "time": "2017-07-23T13:11:16+00:00"
         }
     ],
